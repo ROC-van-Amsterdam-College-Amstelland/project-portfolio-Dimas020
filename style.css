@@ -3,12 +3,12 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(187, 105, 105);
+    background-color: gray;
   }
   
   li {
     float: left;
-    border-right:1px solid rgb(224, 24, 24);
+    border-right:1px solid rgb(54, 54, 56);
   }
   
   li:last-child {
@@ -30,3 +30,7 @@ ul {
   .active {
     background-color: #4CAF50;
   }
+
+body{
+  background: silver;
+}
