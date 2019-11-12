@@ -1,0 +1,78 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid rgb(54, 54, 56);
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+body{
+  background-image: url('http://i.stack.imgur.com/kx8MT.gif');
+  background-size: cover;
+}
+
+h1{
+  color: white;
+  padding-left: 100px;
+}
+
+h3{
+  color: white;
+  padding-left: 250px;
+  padding-top: 100px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+
+.flex-container > div {
+  background-color: transparent;
+  width: 400px;
+  margin: 100px;
+  text-align: start;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+div{
+  color: white;
+  background-color: transparent;
+}
+
+img{
+  text-align: end;
+  padding-left: 100px;
+}
+
+h2{
+  color: white;
+  padding-left: 100px;
+}

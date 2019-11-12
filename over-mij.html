@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style4.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projecten.html">Projecten</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="over-mij.html">Over Mij</a></li>
+                <li><a href="nieuws.html">Nieuws</a></li>
+                <li><a href="vaardigheden.html">Vaardigheden</a></li>
+                <li><a href="https://github.com/ROC-van-Amsterdam-College-Amstelland/project-portfolio-Dimas020">Github</a></li>
+            </ul>
+        </nav>
+        <h1>Hobby's</h1>
+        <h2>Mijn hobby's zijn</h2>
+        <ol><h2><p><a href="https://www.callofduty.com/nl/modernwarfare/buy?gclid=Cj0KCQiA2ITuBRDkARIsAMK9Q7MN5vpBoy_pkC4Mo8mFJVL9NcDg8BeI1vggN2yP4HXI07jjcW7uf2waAsB4EALw_wcB">Gamen</a></p>
+        </h2>
+            <h3>Ik game veel met mijn vrienden. vaak speel ik Fifa 20 of Call of Duty Modern Warfare.</h3>
+            <h2><p><a href="https://www.realmadrid.com/">Voetbal</a></p></h2>
+            <h3>Ik speel vaak voetbal met mijn vrienden.</h3>
+            <h2><p><a href="https://www.netflix.com/">netflix</a></p></h2>
+            <h3>Ik vind het leuk om series of films te kijken op netflix.</h3>
+        </ol>
+    </header>
+    <h1><script>
+            var now = new Date();
+            var days = new Array("Zondag", "Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag");
+            var months = new Array("januari","februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december");
+            var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+            function fourdigits(number) {
+                return (number < 1000) ? number + 1900 : number;
+            }
+            today = days[now.getDay()] + " " +
+                         date + " " +
+                         months[now.getMonth()] + " " +
+                           (fourdigits(now.getYear())) ;
+            document.write(today);
+            </script></h1>>
